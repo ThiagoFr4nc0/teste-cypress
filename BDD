@@ -1,0 +1,36 @@
+
+
+User story: acessando site da rocketz
+
+Para: que eu possa pesquisar computadores
+Sendo: um visitante que acessou o catálogo
+Posso: buscar produtos pelo título
+
+Cenário “Produto Disponível”, para BDD:
+
+Dado que: estou na loja virtual
+E: preencho o campo de busca com “prime”
+Quando: clico no produto que apareceu abaixo da barra de pesquisa
+Então: devo ver as configuraçao do produto e o propio produto    
+
+User story: acessando site da rocketz
+
+Para: que eu possa configurar um computador
+Sendo: um visitante que acessou monte seu pc
+Posso: posso configurar um computador
+
+Cenário “configuraçao disponivel”, para BDD:
+
+Dado que: estou na loja virtual
+E: clico no botao “monte seu pc”
+Quando: clico abre um catalogo de computadores para começar a configurar
+E: seleciono o computador "Prime"
+Quando: clico abre as configuraçao do computador 
+E: começo abrindo todas os detalhes e verificar
+E: decido realizar uma mudança no processador
+Quando:clico no botao "mudar componente"
+E: verifico os processadores intel 
+Quando: clico no processador que escolhi ele é selecionado 
+E:clico no botao salvar
+Quando: clico no botao ele faz a mudaça q selecionei
+Então: devo ter configurado o computador  
